@@ -1,0 +1,3 @@
+Daily: Time(s)
+Weekly: Day(s):Time(s)
+Monthly: DayoM(s):Time(s)

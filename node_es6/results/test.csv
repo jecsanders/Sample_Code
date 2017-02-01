@@ -1,0 +1,16 @@
+TABLE_CATALOG,TABLE_SCHEMA,TABLE_NAME,COLUMN_NAME,ORDINAL_POSITION,COLUMN_DEFAULT,IS_NULLABLE,DATA_TYPE,CHARACTER_MAXIMUM_LENGTH,CHARACTER_OCTET_LENGTH,NUMERIC_PRECISION,NUMERIC_PRECISION_RADIX,NUMERIC_SCALE,DATETIME_PRECISION,CHARACTER_SET_CATALOG,CHARACTER_SET_SCHEMA,CHARACTER_SET_NAME,COLLATION_CATALOG,COLLATION_SCHEMA,COLLATION_NAME,DOMAIN_CATALOG,DOMAIN_SCHEMA,DOMAIN_NAME
+asgardtest,dbo,T1,x1,1,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Products,ProductID,1,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Products,ProductName,2,null,YES,varchar,255,255,null,null,null,null,null,null,iso_1,null,null,SQL_Latin1_General_CP1_CI_AS,null,null,null
+asgardtest,dbo,Products,ProductType,3,null,YES,varchar,255,255,null,null,null,null,null,null,iso_1,null,null,SQL_Latin1_General_CP1_CI_AS,null,null,null
+asgardtest,dbo,Products,Quantity,4,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Products,Price,5,null,YES,float,null,null,53,2,null,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Orders,OrderID,1,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Orders,PersonID,2,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Orders,ProductID,3,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Orders,OrderQuantity,4,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Customers,PersonID,1,null,YES,int,null,null,10,10,0,null,null,null,null,null,null,null,null,null,null
+asgardtest,dbo,Customers,LastName,2,null,YES,varchar,255,255,null,null,null,null,null,null,iso_1,null,null,SQL_Latin1_General_CP1_CI_AS,null,null,null
+asgardtest,dbo,Customers,FirstName,3,null,YES,varchar,255,255,null,null,null,null,null,null,iso_1,null,null,SQL_Latin1_General_CP1_CI_AS,null,null,null
+asgardtest,dbo,Customers,Address,4,null,YES,varchar,255,255,null,null,null,null,null,null,iso_1,null,null,SQL_Latin1_General_CP1_CI_AS,null,null,null
+asgardtest,dbo,Customers,City,5,null,YES,varchar,255,255,null,null,null,null,null,null,iso_1,null,null,SQL_Latin1_General_CP1_CI_AS,null,null,null
